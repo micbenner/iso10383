@@ -13,7 +13,7 @@ class DataGenerator
         $this->importer = $importer;
     }
 
-    // Referenced in composer.json
+    // Referenced in composer.json. Try running "composer refresh-exchanges"
     public static function importFromCsv(): void
     {
         $generator = new DataGenerator(

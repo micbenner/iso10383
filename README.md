@@ -30,6 +30,10 @@ Each method returns either a single instance, or an array of, the `CipherPixel\I
 
 Feel free to submit a pull request or create an issue.
 
+## License
+
+micbenner/iso10383 is licensed under the MIT license.
+
 ## Source(s)
 
 * [ISO 10383](https://www.iso20022.org/market-identifier-codes)
