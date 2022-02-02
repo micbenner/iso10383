@@ -19,9 +19,9 @@ $ composer require micbenner/iso10383
 Quick guide:
 
 ``` php
-$exchange = CipherPixel\ISO10383\ISO10383Collection::load()->acronym('XNAS');
-$exchange = CipherPixel\ISO10383\ISO10383Collection::load()->mic('XNAS');
-$exchanges = CipherPixel\ISO10383\ISO10383Collection::load()->operatingMic('XNAS');
+$exchange = CipherPixel\ISO10383\ISO10383Collection::load()->acronym('NASDAQ'); // Find by acronym
+$exchange = CipherPixel\ISO10383\ISO10383Collection::load()->mic('XNAS'); // Find by MIC
+$exchanges = CipherPixel\ISO10383\ISO10383Collection::load()->operatingMic('XNAS'); // Find all segment/child exchanges belonging to XNAS
 ```
 
 Each method returns either a single instance, or an array of, the `CipherPixel\ISO10383\ISO10383Collection` class.
