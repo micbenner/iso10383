@@ -1,0 +1,31 @@
+{
+    "name": "micbenner/iso10383",
+    "description": "ISO 10383 - Codes for exchanges and market identification (MIC)",
+    "autoload": {
+        "psr-4": {
+            "CipherPixel\\ISO10383\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CipherPixel\\ISO10383\\Import\\": "import/",
+            "CipherPixel\\ISO10383\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "micbenner",
+            "email": "michael@cipherpixel.net"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "brick/varexporter": "^0.3.5"
+    },
+    "scripts": {
+        "refresh-exchanges": "CipherPixel\\ISO10383\\Import\\DataGenerator::importFromCsv"
+    }
+}
