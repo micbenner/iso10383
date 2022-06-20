@@ -36,7 +36,7 @@ class ISO10383Collection
             return $this->exchangeFromArray($this->exchangesByMic[$mic]);
         }
 
-        throw new ExchangeNotFoundException();
+        throw ExchangeNotFoundException::withMic($mic);
     }
 
     /**
@@ -75,7 +75,7 @@ class ISO10383Collection
             }
         }
 
-        throw new ExchangeNotFoundException();
+        throw ExchangeNotFoundException::withValue($key, $value);
     }
 
     /**

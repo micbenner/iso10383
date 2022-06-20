@@ -69,6 +69,7 @@ class ISO10838CollectionTest extends TestCase
     public function testFetchByAcronymFails()
     {
         $this->expectException(ExchangeNotFoundException::class);
+        $this->expectExceptionMessage("Could not find exchange with acronym of 'XNO'");
 
         $this->collection->acronym('XNO');
     }
@@ -83,6 +84,7 @@ class ISO10838CollectionTest extends TestCase
     public function testFetchByMicFails()
     {
         $this->expectException(ExchangeNotFoundException::class);
+        $this->expectExceptionMessage("Could not find exchange with MIC of 'XNO'");
 
         $this->collection->mic('XNO');
     }
