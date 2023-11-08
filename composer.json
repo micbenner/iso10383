@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0"
+        "php": ">=7.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
@@ -27,5 +27,7 @@
     },
     "scripts": {
         "refresh-exchanges": "CipherPixel\\ISO10383\\Import\\DataGenerator::importFromCsv"
-    }
+    },
+    "license": "MIT",
+    "keywords": ["ISO 10383", "ISO", "10383", "10383", "MIC", "market identification", "exchanges", "code"]
 }
