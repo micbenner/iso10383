@@ -1,5 +1,4 @@
-# .github/workflows/update-mic-daily.yml
-name: Daily MIC Update
+name: Update MIC from source
 
 on:
   schedule:
