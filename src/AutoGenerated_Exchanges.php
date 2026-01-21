@@ -30379,7 +30379,7 @@ return [
         'creationDate' => '20120528',
         'modifiedDate' => '20260126',
         'lastValidationMonth' => '20260126',
-        'expiryDate' => '',
+        'expiryDate' => '20260126',
         'comments' => '',
     ],
     'PINL' => [
