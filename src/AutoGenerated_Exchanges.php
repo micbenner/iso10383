@@ -17307,7 +17307,7 @@ return [
         'creationDate' => '20170522',
         'modifiedDate' => '20260928',
         'lastValidationMonth' => '20260928',
-        'expiryDate' => '20260928',
+        'expiryDate' => '',
         'comments' => 'ELECTRONIC TRADING PLATFORM FOR OTC EQUITY SECURITIES.',
     ],
     'GOVX' => [
@@ -28023,7 +28023,7 @@ return [
         'creationDate' => '20260928',
         'modifiedDate' => '20260928',
         'lastValidationMonth' => '20260928',
-        'expiryDate' => '20260928',
+        'expiryDate' => '',
         'comments' => 'ELECTRONIC TRADING PLATFORM FOR OTC EQUITY SECURITIES.',
     ],
     'NDSC' => [
